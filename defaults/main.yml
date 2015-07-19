@@ -1,1 +1,4 @@
 ---
+tomcat7_packages:
+  - openjdk-7-jre
+  - tomcat7

@@ -1,0 +1,8 @@
+---
+- name: Bind to ipv4
+  template:
+    src: setenv.sh.j2
+    dest: /usr/share/tomcat7/bin/setenv.sh
+    mode: 0755
+  notify:
+    - restart tomcat7
