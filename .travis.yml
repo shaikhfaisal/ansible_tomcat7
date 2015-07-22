@@ -1,0 +1,4 @@
+---
+language: bash
+sudo: required
+script: cd _devel; make travis_ci;
